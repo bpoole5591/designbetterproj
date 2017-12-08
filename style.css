@@ -1,0 +1,99 @@
+header {
+    height: 8vh;
+    width: 93%;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    /* background: #0828CC; */
+}
+
+body {
+    background-image: url("./background.png");
+   background-size: cover;
+    /* background: #0828CC; */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    width: 20%;
+    padding: 15px 15px 15px 15px;
+}
+
+.subscribe {
+    height: 50px;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 40px
+}
+
+.logo {
+    height: 38px;
+    width: 187px;
+    padding: 10px;
+}
+
+.logo img {
+    height 100%;
+    width: 100%;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 40vh;
+}
+
+p {
+    font-size: 13px;
+    color: white;
+}
+
+span {
+    font-family: arial;
+    font-size: 72px;
+    color: white;
+    margin: 0px 0px 20px 0px;
+}
+
+.sub{
+    font-family: arial;
+    font-size: 18px;
+    color: white;
+    position: center;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    /* align-items: right;
+    justify-content: flex-end; */
+    height: 25vh;
+    width: 93%;
+    padding: 10px 10px 10px 1200px;
+}
+
+aside .social {
+    display: flex;
+    flex-direction: column;
+    margin: 4px;
+    /* position: absolute; */
+    /* right: 1000px; */
+}
+
+aside .social #icon {
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+aside .social #iconfb {
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 8px;
+}
